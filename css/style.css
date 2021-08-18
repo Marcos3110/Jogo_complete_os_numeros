@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html,body{
+    height: 100%;
+    background-image: linear-gradient(to right, #001, #000814 ,#001d3d, #003566);
+
+}
+/*como jogar*/
+.como_jogar{
+    color: #FFC300;
+    background-color: #001D3D;
+    border: 3px solid #003566;
+    margin: 5px 600px 0px 600px;
+    text-align: center;
+}
+.nome_jogo{
+    color: #FFC300;
+    background-color: #001D3D;
+    border: 5px solid #003566;
+    margin: 5px 400px 0px 400px;
+    text-align: center;
+
+}
+.regras{
+    background-color: #001D3D;
+    text-align: 30px;
+    text-align: center;
+    color: #FFC300;
+    margin: 5px 300px 0px 300px;
+    border: 2px solid #003566;
+}
+#como{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFC300;
+    background: #001D3D;
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px 10px 1100px;
+    border:5px solid #003566;
+    border-width: 100%;
+    height: 40px;
+    font-family: 'Inconsolata', monospace;
+}
+.voltar{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFC300;
+    background: #001D3D;
+    display: flex;
+    justify-content: center;
+    margin: 240px 600px;
+    border:5px solid #003566;
+    border-width: 100%;
+    height: 40px;
+}
+/*inicio*/
+.complete{
+    margin: 5px;
+    color: #FFC300;
+    text-align:center;
+    font-size: 60px;
+    text-shadow: 4px 4px #003566;
+    background-color: #001D3D;
+    border: 5px solid #003566;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 500px;
+    font-family: 'Inconsolata', monospace;
+}
+.os{
+    margin: 5px;
+    color: #FFC300;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 4px 4px #003566;
+    background-color: #001D3D;
+    border: 5px solid #003566;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55px;
+    font-family: 'Inconsolata', monospace;
+}
+.numeros{
+    margin: 5px;
+    color: #FFC300;
+    text-align: center;
+    font-size: 60px;
+    width: 369px;
+    text-shadow: 4px 4px #003566;
+    background-color: #001D3D;
+    border: 5px solid #003566;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    font-family: 'Inconsolata', monospace;
+}
+#inicio{
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFC300;
+    background: #001D3D;
+    display: flex;
+    justify-content: center;
+    margin: 300px 600px 5px 600px;
+    border:5px solid #003566;
+    border-width: 100%;
+    height: 5%;
+    font-family: 'Inconsolata', monospace;
+}
+#clique_pontos01, #clique_pontos02, #clique_pontos03, #clique_pontos04, #clique_pontos05, #clique_pontos06, 
+#clique_pontos07,#clique_pontos08, #clique_pontos09{
+    color: #FFC300;
+    background-color:#001D3D;
+    border: 5px solid #003566;
+    width: 95px;
+    height: 70px;
+    margin: 10px 120px -150px 90px;
+}
+.pontos_fase{
+    font-size: 30px;
+     color: #FFC300;
+    background-color: #001D3D;
+    border:4px solid #003566;
+    margin: 10px 1100px 10px 10px;
+    text-align: center;
+}
+#pontos1, #pontos2,#pontos3, #pontos4,#pontos5, #pontos6, #pontos7, #pontos8,#pontos9 {
+    color:#FFC300;
+    background-color: #001D3D;
+    border: 3px solid #003566;
+    font-size: 30px;
+    margin: 5px 1150px 10px 50px;
+    text-align: center;
+    text-decoration: underline #FFC300;
+}
+.tabela_cima1{
+     background-color: #001D3D;
+     font-size: 60px;
+     color: #FFC300;
+     margin: 100px 00px 6px 0px;  
+     margin-left: 800px;
+     border: 5px solid #003566;
+ }
+.tabela_cima2{
+    background-color: #001D3D;
+    font-size: 60px;
+    color: #FFC300;
+    margin: 100px 00px 6px 00px;  
+    margin-left: 6px;
+    border: 5px solid #003566;
+ }
+.tabela_baixo1 {
+     background-color: #001D3D;
+     font-size: 60px;
+     color: #FFC300;
+     margin-left:800px;
+     border: 5px solid #003566;
+ }
+.tabela_baixo2{
+    background-color: #001D3D;
+    font-size: 60px;
+    color: #FFC300;
+    margin-left:6px;
+    border: 5px solid #003566;
+ }
+.sequencia{
+     font-size: 50px;
+     color: #FFC300;
+     margin:150px 0px 0px 40px;
+     font-family: 'Orbitron', sans-serif;
+ }
+.completo{
+    height: 500px;
+    background-color: #001D3D;
+    border:5px solid #003566;
+    margin:200px 0px 0px 0px;
+    text-decoration: underline #FFC300;
+    font-family: 'Orbitron', sans-serif;
+ }
+#completar_a1, #completar_a2, #completar_a3, #completar_a4, #completar_a5,
+#completar_c1, #completar_c2, #completar_c3, #completar_c4, #completar_c5, 
+#completar_b1, #completar_b2, #completar_b3, #completar_b4, #completar_b5,
+#completar_d1, #completar_d2, #completar_d3, #completar_d4, #completar_d5,
+#completar_e1, #completar_e2, #completar_e3, #completar_e4, #completar_e5,  
+#completar_f1, #completar_f2, #completar_f3, #completar_f4, #completar_f5, 
+#completar_h1, #completar_h2, #completar_h3, #completar_h4, #completar_h5, 
+#completar_i1, #completar_i2, #completar_i3, #completar_i4, #completar_i5,
+#completar_g1, #completar_g2, #completar_g3, #completar_g4, #completar_g5{
+     color: #FFC300;
+     background-color: #001D3D;
+     margin: 0px 0px 0px 0px;
+     border:5px solid #003566;
+     font-size: 40px;
+     width: 50px;
+     height: 50px;
+     font-family: 'Orbitron', sans-serif;
+ }
+.proxima{ 
+    height: 40px;
+    margin: 200px 100px 100px 300px;
+ }
+
+.enunciado{
+    background: #001D3D;
+    color:#FFC300;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+    height: 45px;
+    border:5px solid #003566;
+    text-shadow: 4px 4px #003566;
+    font-family: 'Orbitron', sans-serif;
+}
+/*Final*/
+.sua_pontuacao{
+    color: #FFC300;
+    font-size: 50px;
+    text-align:center;
+    background-color: #001D3D;
+    border:5px solid #003566;
+    margin: 0px 400px  10px 400px;
+}
+#mostra_pontos{
+    font-size: 50px;
+    color: #FFC300;
+    width: 150px;
+     height:60px;
+     background-color: #001D3D;
+     border: 5px solid #003566;
+     margin: auto;
+     text-decoration: underline #FFC300;
+     font-family: 'Orbitron', sans-serif;
+     text-align: center;
+}
+.total_de_erro{
+    color: #FFC300;
+    font-size: 50px;
+    background-color: #001D3D;
+    border:5px solid #003566;
+    margin: 100px 400px  10px 400px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+#mostra_erros{
+    color: #FFC300;
+    font-size: 50px;
+    background-color: #001D3D;
+    border: 5px solid #003566;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+    text-decoration: underline #FFC300;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+#botao_placar{
+    color: #FFC300;
+    background: #001D3D;
+    border: 4px solid #003566;
+    font-size: 15px;
+    width: 150px;
+    height: 60px;
+    margin: 50px 100px 50px 610px ;
+    font-family: 'Orbitron', sans-serif;
+}
+#jogar_novamente{
+    color: #FFC300;
+    background-color: #001D3D;
+    border: 3px solid #003566;
+    margin: 100px 10px 10px 1000px;
+    font-family: 'Orbitron', sans-serif;
+
+}

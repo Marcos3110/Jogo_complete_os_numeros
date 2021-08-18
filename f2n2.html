@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <title>Nivel 2-2</title>
+        <meta charset="utf-8"/>
+       <link href="css/style.css" type="text/css" rel="stylesheet"/>
+       <script src="js/scripts.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1 class="enunciado">COMPLETE OS NÚMEROS IMPARES QUE FALTAM NA SEQUÊNCIA.</h1>
+        <h4 class="pontos_fase">PONTUAÇÃO:  <H4 Id="pontos5"> ____</H4></h4>
+        <button id="clique_pontos05" onclick="button05(this);"> PONTUAÇÃO clique aqui</button>
+    </body>
+    <div>
+        <span class="tabela_cima1">09</span>
+        <span class="tabela_cima2">01</span>
+        <span class="tabela_cima2">13</span>
+        <span class="tabela_cima2">21</span>
+        <span class="tabela_cima2">11</span>
+        <br>
+        <span class="tabela_baixo1">07</span>
+        <span class="tabela_baixo2">05</span>
+        <span class="tabela_baixo2">17</span>
+        <span class="tabela_baixo2">25</span>
+        <span class="tabela_baixo2">08</span>
+    </div>
+    <div class="sequencia">
+        <span class="completo">03</span>
+        <input id="completar_e1" onblur="completar_e1(this);" type="text"maxlength="2">
+        <span class="completo">07</span>
+        <input id="completar_e2" onblur="completar_e2(this);" type="text"maxlength="2">
+        <span class="completo">11</span>
+        <input id="completar_e3" onblur="completar_e3(this);" type="text"maxlength="2">
+        <span class="completo">15</span>
+        <input id="completar_e4" onblur="completar_e4(this);" type="text"maxlength="2">
+        <span class="completo">19</span>
+        <input id="completar_e5" onblur="completar_e5(this);" type="text"maxlength="2">
+        <span class="completo">23</span>
+        <a class="proxima" onclick="button05(this);" href="f2n3.html"><img src="img/proxima.png"></a>
+    </div>
+</html>
